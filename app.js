@@ -28,7 +28,7 @@ Habilidades: ${pokemon.abilities.join(', ')}`;
 
 
 
-var job = new CronJob('38 22 * * * ', () => {
+var job = new CronJob('30 06 * * * ', () => {
     pokemonSorter((pokemon) => {
         console.log(pokemon);
         

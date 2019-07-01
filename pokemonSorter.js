@@ -1,6 +1,8 @@
 var request = require("request");
 
-var maxPokemon = 825;
+// var maxPokemon = 825;
+// TODO:
+var maxPokemon = 500;
 
 const API_URL = "https://pokeapi.co/api/v2/pokemon/";
 
